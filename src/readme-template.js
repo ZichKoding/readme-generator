@@ -15,5 +15,8 @@ module.exports = templateData => {
         
         ## **Description**
         ${description}
+
+        ## **Installation**
+        ${installation}
     `;
 }
