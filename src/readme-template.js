@@ -3,5 +3,16 @@ module.exports = templateData => {
 
     return `
         # **${title}**
+
+        ## _Table of Contents_
+        * Description
+        * Installation
+        * Usage
+        * License 
+        * Contributions
+        * Tests
+        * Questions
+        
+
     `;
 }
