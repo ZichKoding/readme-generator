@@ -60,7 +60,6 @@ function init() {
 // Function call to initialize app
 init()
     .then(readMeData => {
-        console.log(readMeData);
         generateReadMe(readMeData);
         console.log(generateReadMe(readMeData));
     });
