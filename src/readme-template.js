@@ -21,5 +21,17 @@ module.exports = templateData => {
 
         ## **Usage**
         ${usage}
+
+        ## **License**
+        ${licenses}
+
+        ## **Contributions**
+        ${contributions}
+
+        ## **Tests**
+        ${tests}
+
+        ## **Questions**
+        If there is any questions email me at ${questions}.
     `;
 }
