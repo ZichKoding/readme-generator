@@ -1,37 +1,37 @@
 module.exports = templateData => {
     const {title, description, installation, usage, licenses, contributions, tests, questions} = templateData;
+    let readMe = `
+# **${title}**
 
-    return `
-        # **${title}**
+## _Table of Contents_
+* Description
+* Installation
+* Usage
+* License 
+* Contributions
+* Tests
+* Questions
 
-        ## _Table of Contents_
-        * Description
-        * Installation
-        * Usage
-        * License 
-        * Contributions
-        * Tests
-        * Questions
-        
-        ## **Description**
-        ${description}
+## **Description**
+${description}
 
-        ## **Installation**
-        ${installation}
+## **Installation**
+${installation}
 
-        ## **Usage**
-        ${usage}
+## **Usage**
+${usage}
 
-        ## **License**
-        ${licenses}
+## **License**
+${licenses}
 
-        ## **Contributions**
-        ${contributions}
+## **Contributions**
+${contributions}
 
-        ## **Tests**
-        ${tests}
+## **Tests**
+${tests}
 
-        ## **Questions**
-        If there is any questions email me at ${questions}.
-    `;
-}
+## **Questions**
+If there is any questions email me at ${questions}.
+    `
+    return readMe.replace('', '');
+};

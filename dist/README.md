@@ -1,33 +1,33 @@
 
-        # **README Generator**
+# **README Generator**
 
-        ## _Table of Contents_
-        * Description
-        * Installation
-        * Usage
-        * License 
-        * Contributions
-        * Tests
-        * Questions
-        
-        ## **Description**
-        This project is to assist other developers and creators to help create professional README files.
+## _Table of Contents_
+* Description
+* Installation
+* Usage
+* License 
+* Contributions
+* Tests
+* Questions
 
-        ## **Installation**
-        Currently, the only way to install this project is to download off of GitHub.
+## **Description**
+This project is to assist other developers and creators to help create professional README files.
 
-        ## **Usage**
-        This project is intended for creating professional README files for developers and creators projects.
+## **Installation**
+This project is to assist other developers and creators to help create professional README files.
 
-        ## **License**
-        choice 1
+## **Usage**
+This project is intended for creating professional README files for developers and creators projects.
 
-        ## **Contributions**
-        If you would like to make a contribution you will need to create an issue, pull request, or email me to request.
+## **License**
+choice 1
 
-        ## **Tests**
-         I don't have any requirements for testing at this time.
+## **Contributions**
+If you would like to make a contribution you will need to create an issue, pull request, or email me to request.
 
-        ## **Questions**
-        If there is any questions email me at chriszichkocoding@gmail.com.
+## **Tests**
+I don't have any requirements for testing at this time.
+
+## **Questions**
+If there is any questions email me at chriszichkocoding@gmail.com.
     
