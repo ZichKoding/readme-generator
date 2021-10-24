@@ -2,13 +2,13 @@
 # **README Generator**
 
 ## _Table of Contents_
-* Description
-* Installation
-* Usage
-* License 
-* Contributions
-* Tests
-* Questions
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## **Description**
 This project is to assist other developers and creators to help create professional README files.

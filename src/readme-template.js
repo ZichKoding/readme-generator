@@ -4,13 +4,13 @@ module.exports = templateData => {
 # **${title}**
 
 ## _Table of Contents_
-* Description
-* Installation
-* Usage
-* License 
-* Contributions
-* Tests
-* Questions
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## **Description**
 ${description}
