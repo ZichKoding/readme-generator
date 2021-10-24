@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-const fs = require('fs');
 const inquirer = require('inquirer');
 const generateReadMe = require('./src/readme-template');
+const readmeGenerated = require('./utils/readmeGenerated');
 
 // const { title } = require('process');
 // TODO: Create an array of questions for user input
@@ -61,5 +61,8 @@ function init() {
 init()
     .then(readMeData => {
         generateReadMe(readMeData);
-        console.log(generateReadMe(readMeData));
+        readmeGenerated.writeFile(generateReadMe(readMeData));
+    })
+    .catch(err => {
+        console.log(err);
     });
