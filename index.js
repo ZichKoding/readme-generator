@@ -3,16 +3,14 @@ const inquirer = require('inquirer');
 const generateReadMe = require('./src/readme-template');
 const readmeGenerated = require('./utils/readmeGenerated');
 
-// const { title } = require('process');
-// TODO: Create an array of questions for user input
-const questions = [];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt([
+        {
+            type: 'input',
+            name: 'username',
+            message: `What is your GitHub username?`
+        },
         {
             type: 'input',
             name: 'title',
@@ -37,7 +35,7 @@ function init() {
             type: 'checkbox',
             name: 'licenses',
             message: `Choose one of the following licenses:`, 
-            choices: ['choice 1', 'choice 2', 'choice 3', 'choice 4', 'choice 5']
+            choices: ['Apache License 2.0', 'MIT License', 'GNU General Public License v3.0']
         },
         {
             type: 'input',

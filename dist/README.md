@@ -17,17 +17,19 @@ This project is to assist other developers and creators to help create professio
 This project is to assist other developers and creators to help create professional README files.
 
 ## **Usage**
-This project is intended for creating professional README files for developers and creators projects.
+The intent of this project is to automate README.md files for developers and creators. This will speed up the tedious process and syntax of writing a professional README.md
 
 ## **License**
-choice 1
+MIT License
 
 ## **Contributions**
-If you would like to make a contribution you will need to create an issue, pull request, or email me to request.
+I don't have any requirements for testing at this time.
 
 ## **Tests**
 I don't have any requirements for testing at this time.
 
 ## **Questions**
+https://github.com/ZichKoding/
+
 If there is any questions email me at chriszichkocoding@gmail.com.
     

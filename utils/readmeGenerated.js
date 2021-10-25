@@ -7,9 +7,18 @@ const writeFile = readmeContent => {
             reject(err);
             return;
         }
-
     });
 };
 
-module.exports = {writeFile};
+const writeLicense = licenseData => {
+    fs.writeFile('../dist/LICENSE.txt', licenseData, err => {
+        if (err) {
+            reject(err);
+            return;
+        }
+        console.log('LICENSE.txt has been created!');
+    });
+};
+
+module.exports = { writeFile, writeLicense };
 
